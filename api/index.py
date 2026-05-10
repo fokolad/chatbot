@@ -9,8 +9,8 @@ app = FastAPI()
 
 # ─── CONFIG ───────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.getenv("8539004302:AAHUSJZIKFXQbw5o06pKJOcdt-K_ChVJoPo")
-MISTRAL_API_KEY = os.getenv("hcmJpcKUgeRjBstIwJ3WHTcAlIwvSDEe")
-MODEL_NAME = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+MISTRAL_API_KEY = os.getenv("ag_019e13347601769aa641ac339b87fc1a")
+MODEL_NAME = os.getenv("MISTRAL_MODEL", "mistral-medium-latest")
 MAX_HISTORY = 10  # Пар сообщений (user + assistant)
 
 if not TELEGRAM_TOKEN or not MISTRAL_API_KEY:
